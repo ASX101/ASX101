@@ -93,6 +93,4 @@ Here are some ideas to get you started:
 </div>
 
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,php,c,pytorch,tensorflow,laravel,mysql,git,github&theme=dark&perline=6"/>
-</div>
+
