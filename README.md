@@ -15,14 +15,27 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# I'm Asrar Azim 👋
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F75C7E&width=435&lines=Hi+There!+👋;I'm+a+Developer!;Welcome+to+my+Profile!)](https://git.io/typing-svg)
+
+# Hello there, I am 
+
+<!-- Glitchy neon style -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=200&text=Asrar%20Azim&fontSize=50&fontColor=fff&animation=twinkling" width="100%"/>
+
+
+
+
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F75C7E&width=435&lines=Hope+You+are+fine!+👋;I'm+a+Developer!;And+interested+in+Ai,+ML;Welcome+to+my+Profile!)](https://git.io/typing-svg)
 
 ## I'm a recent graduate who is interested in Ai, ML & WebDev. Currently working on a fullstack web application.
 
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,php,c,pytorch,tensorflow,laravel,mysql,git,github&theme=dark&perline=6"/>
+
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
@@ -48,11 +61,18 @@ Here are some ideas to get you started:
 ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat&logo=keras&logoColor=white)
 ![YOLO](https://img.shields.io/badge/-YOLO-00FFFF?style=flat&logo=yolo&logoColor=black)
 
+</div>
 
+## 🔭 Contributions 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ASX101/ASX101/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg" width="100%"/>
 </div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ASX101&theme=nightowl&hide_border=true&area=true&bg_color=0a0d14&color=00f5a0&line=00d4ff&point=ff6b6b" width="100%"/>
+</div>
+
 
 
 
@@ -64,3 +84,15 @@ Here are some ideas to get you started:
 
 ## ⚡ Fun fact
  Some people stil thinks that the Earth is Flat
+
+
+## 🤔 Random
+<!-- Random dev joke -->
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" width="100%"/>
+</div>
+
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,php,c,pytorch,tensorflow,laravel,mysql,git,github&theme=dark&perline=6"/>
+</div>
