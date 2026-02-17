@@ -8,14 +8,16 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
-      - name: Generate Snake
-        uses: Platane/snk@v3
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -24,10 +26,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: output
-          folder: dist
-          clean: true
+      - name: Push snake to output branch
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git checkout --orphan output
+          git rm -rf .
+          cp -r dist/* .
+          git add github-contribution-grid-snake.svg
+          git add github-contribution-grid-snake-dark.svg
+          git commit -m "Update snake animation"
+          git push origin output --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
